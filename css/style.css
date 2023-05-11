@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2? family=Poppins:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --background-light-gray: #F0F0F0;
+    --color-black: #383838;
+    --color-light-black: #797979;
+    --color-light-red: #DD7E92;
+    --color-white: #FFFFFF;
+    --color-green: #38AF90;
+    --color-gray: #c4c4c4;
+}
+
+.profile__header {
+    background-color: var(--color-green);
+    height: 90px;
+    display: flex;
+}
+
+
+.link {
+    text-decoration: none;
+    text-transform: unset;
+    color: var(--color-white);
+    font-size: 14px;
+}
+
+.menu__nav {
+    display: none;
+}
+
+.nav {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+}
+
+
+.profile__title {
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.profile__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.profile__img {
+    width: 62px;
+}
+
+.container--spacing {
+    margin-bottom: 40px;
+}
+
+.title {
+    color: var(--color-light-black);
+    padding: 40px 0 8px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.container {
+    margin: 0 10px;
+}
+
+.main__div {
+    background-color: var(--background-light-gray);
+    margin-bottom: 28px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.main__div-secundary {
+    width: calc(100% - 24px);
+    margin: 0 auto;
+}
+
+.main__div-tertiary {
+    padding: 0 1px;
+}
+
+.main__div-title {
+    color: var(--color-green);
+    padding: 16px 0 3px 0;
+    font-weight: 700px;
+}
+
+.main__subtitle {
+    font-weight: 700;
+    font-size: 0.75rem;
+    border-bottom: var(--color-green) solid 1px;
+}
+
+
+.main__p {
+    font-size: 0.625rem;
+    font-weight: 400;
+}
+
+.date {
+    color: var(--color-green);
+    padding: 2px 0 12px 0;
+}
+
+.main__container {
+    padding-bottom: 21px;
+}
+
+.main__link {
+    color: var(--color-light-red);
+    text-decoration: none;
+    text-transform: unset;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.main__div--block {
+    padding-bottom: 12px;
+}
+
+.main-button__container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: var(--color-light-red);
+    padding: 20px 53px;
+    color: var(--color-white);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    width: 244px;
+    height: 67px;
+}
+
+.games {
+    background-color: var(--background-light-gray);
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+.title--green {
+    padding: 40px 0 28px 0;
+    color: var(--color-green);
+}
+
+.games__container--secundary {
+    height: 326px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+}
+
+.games__div {
+    margin-bottom: 27px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.games__img {
+    width: calc(100vw - 20px);
+    max-width: 300px;
+    max-height: 168px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.games__div-secundary {
+    height: 158px;
+    background-color: var(--color-white);
+    color: var(--color-light-black);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 28px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.games__name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.games__text {
+    font-size: 14px;
+}
+
+.games__text--green {
+    color: var(--color-green);
+}
+
+.games__note {
+    padding-top: 13px;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--color-green);
+}
+
+
+.form__title {
+    padding-bottom: 16px;
+}
+
+.form__container {
+    background-color: var(--background-light-gray);
+    border-radius: 8px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.25);
+    padding-top: 16px;
+    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-light-black);
+}
+
+.form__name {
+    margin-top: 40px;
+
+}
+
+.form__textbox {
+    border-radius: 4px;
+    border: var(--color-light-black) solid 1px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form__textbox::placeholder {
+    color: var(--color-gray);
+    padding: 22px 13px;
+}
+
+.form-select__container {
+    width: 280px;
+}
+
+.form-select--spacing {
+    margin-bottom: 8px;
+}
+
+
+.form-select__radio {
+    display: flex;
+    align-items: center;
+}
+
+.form-select__input {
+    height: 23px;
+    width: 23px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.form-select__checkbox {
+    margin: 28px 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.form-button__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 33px;
+}
+
+.form-button__spacing {
+    margin: 20px 0;
+}
+
+.button--white {
+    background-color: var(--color-white);
+    color: var(--color-light-red);
+    border: 2px solid var(--color-light-red);
+}
+
+
+.footer {
+    height: 302px;
+    background-color: var(--color-black);
+    line-height: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 1200px) {
+
+    .nav {
+        width: calc(100% - 210px);
+    }
+
+    .profile__title {
+        font-size: 1.3em;
+    }
+
+
+    .container__nav {
+        display: flex;
+    }
+
+    .menu__nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu__items {
+        padding: 0 29px;
+        list-style-type: none;
+    }
+
+    .container--spacing {
+        margin-bottom: 56px;
+    }
+
+    .title {
+        font-size: 2.25rem;
+        padding: 40px 0;
+    }
+
+    .main__div-title {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        margin: 0 105px 40px 105px;
+    }
+
+    .title--green {
+        padding: 36px 0 73px 0;
+    }
+
+    .games__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: calc(100% - 240px);
+    }
+
+    .form__container {
+        min-width: 790px;
+        margin: 0 205px;
+    }
+
+    .form-select__container {
+        width: 642px;
+    }
+
+    .form-button__container {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .footer {
+        height: 190px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+}
